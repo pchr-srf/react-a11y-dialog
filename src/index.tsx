@@ -156,7 +156,7 @@ A11yDialog.propTypes = {
   // React 16 requires a container for the portal’s content to be rendered
   // into; this needs to be an existing valid DOM node and defaults to the body
   // element.
-  dialogRoot: PropTypes.string,
+  dialogRoot: PropTypes.node,
 
   // Object of classes for each HTML element of the dialog element.
   // See: https://a11y-dialog.netlify.app/usage/markup
