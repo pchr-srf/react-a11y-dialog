@@ -1,7 +1,7 @@
 {
   "name": "srf-react-a11y-dialog",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A React component wrapper and React hook around a11y-dialog.",
   "homepage": "https://github.com/KittyGiraudel/react-a11y-dialog",
   "license": "MIT",
@@ -30,7 +30,7 @@
     "peer": "npm info . peerDependencies --json  | command sed 's/[\\{\\},]//g ; s/: /@/g' | xargs npm i --no-save"
   },
   "dependencies": {
-    "srf-a11y-dialog": "^1.0.0"
+    "srf-a11y-dialog": "^1.0.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.20.2",
