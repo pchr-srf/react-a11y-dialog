@@ -1,7 +1,7 @@
 {
   "name": "srf-react-a11y-dialog",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React component wrapper and React hook around a11y-dialog.",
   "homepage": "https://github.com/KittyGiraudel/react-a11y-dialog",
   "license": "MIT",
