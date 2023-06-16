@@ -2,7 +2,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
-import A11yDialogLib from 'a11y-dialog'
+import A11yDialogLib from 'srf-a11y-dialog'
 
 const useIsMounted = () => {
   const [isMounted, setIsMounted] = React.useState(false)
