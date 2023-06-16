@@ -71,7 +71,7 @@ export const A11yDialog = props => {
   if (!isMounted) return null
 
   const root = props.dialogRoot
-    ? document.querySelector(props.dialogRoot)
+    ? props.dialogRoot
     : document.body
   const title = (
     <p {...attributes.title} className={props.classNames.title} key='title'>
